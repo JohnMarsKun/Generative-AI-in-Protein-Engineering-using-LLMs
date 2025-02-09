@@ -92,10 +92,21 @@ To set up the environment, install dependencies:
 pip install -r requirements.txt
 ```
 
-To run notebooks, start Jupyter:
-```bash
-jupyter notebook
-```
+## 🏗 **Repository Workflow**
+This repository is structured into three main parts:
+
+1️⃣ **Protein Interpolation** (`protein-interpolation.ipynb`)  
+   - Uses **ESM-2 embeddings** to interpolate between two protein sequences.
+   - Implements **linear, sinusoidal, and arccos interpolation** techniques.
+   - Outputs interpolated sequences stored in `generated-data/interpolated_sequences.csv`.
+
+2️⃣ **Conditional Generation using EvoDiff Diffusion Models**  
+   - A quick demonstration of EvoDiff-based conditional generation is available in:  
+     📂 `evodiff-conditional-gen-demo.ipynb`
+
+3️⃣ **Main: Conditional EvoDiff with ASR** (`conditional-evodiff-gen-ASR.ipynb`)  
+   - Uses **Conditional EvoDiff & FireProt-ASR** to reconstruct ancestral sequences.
+   - Explores **phylogenetic-based protein sequence prediction**.
 
 ## 🤝 **Contributions**
 Feel free to contribute via **pull requests** or raise an **issue** if you find bugs or have suggestions.
