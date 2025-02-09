@@ -1,0 +1,13 @@
+esm==2.0.1
+torch==2.3.1
+numpy==1.26.4
+umap-learn==0.5.6
+transformers==4.42.3
+wandb==0.17.9
+tqdm==4.67.1
+pandas==2.2.3
+ml-collections==0.1.1
+matplotlib==3.8.3
+scipy==1.11.2
+torch_geometric==2.6.0
+biotite==0.41.2
